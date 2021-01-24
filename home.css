@@ -1,0 +1,62 @@
+/*-------------------------Nav bar starts-----------------------------*/ *{
+padding: 0; margin: 0; text-decoration: none; list-style: none; box-sizing:
+border-box; } body{ font-family: monospace; } nav{ background: #1a1d52; height:
+80px; width: 100%; } nav ul{ float: right; margin-right: 20px; } nav ul li{
+display: inline-block; line-height: 80px; margin: 0 5px; } nav ul li a{ color:
+white; font-size: 17px; padding: 7px 13px; border-radius: 3px; text-transform:
+uppercase; } .logo img{ position: absolute; margin-top: 5px; margin-left: 10px;
+} a.active,a:hover{ background: #25c998; transition: .5s; } .checkbtn{
+font-size: 30px; color: white; float: right; line-height: 80px; margin-right:
+40px; margin-top: 25px; cursor: pointer; display: none; } #check{ display: none;
+} @media (max-width: 952px){ label.logo{ font-size: 30px; padding-left: 50px; }
+nav ul li a{ font-size: 16px; } } @media (max-width: 858px){ .checkbtn{ display:
+block; } ul{ position: absolute; width: 100%; height: 75vh; background: #2391ff;
+top: 80px; left: -100%; text-align: center; transition: all .5s; } nav ul li{
+display: block; margin: 50px 0; line-height: 30px; } nav ul li a{ font-size:
+20px; } a:hover,a.active{ background: none; color: #1a1d52; } #check:checked ~
+ul{ left: 0; } } /*---------------------------Nav bar
+ends----------------------------*/ /*---------------------------header
+starts----------------------------*/ #header{ height: 75vh; background:
+linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)),url(source/back_img1.jpg);
+background-position: center; background-size: cover; background-attachment:
+fixed; } /*---------------------------header ends----------------------------*/
+/*--------------------------------Body starts------------------------------*/
+.about{ padding: 0%; padding-top: -10px; background: #1b1e53; } .col-md-6 h1{
+position: inherit; text-align: center; color: #25c998; font-style: italic;
+font-weight: bold; font-size: 30; font-family: 'Sedgwick Ave Display', cursive;
+} .col-md-6 h3{ position: inherit; text-align: center; color: #25c998;
+font-family: 'Sofia', cursive; font-style: italic; font-weight: bold; font-size:
+20; } .col-md-6 text-center{ text-align: center; } .col-md-6 p{ color: white;
+margin-left: 25px; margin-right: 25px; letter-spacing: normal; } .resume{
+margin-top: 0px; padding-top: 10px; padding-bottom: 10px; background: #f9f9f9; }
+.resume p{ color: #1b1e53; font-style: italic; font-weight: bold; font-size: 20;
+} .working{ margin-top: 0px; padding-top: 10px; padding-bottom: 10px;
+background: #f9f9f9; } .working h3{ font-style: italic; font-weight: bold;
+font-size: 20; } .working p{ color: #1b1e53; font-style: italic; font-weight:
+bold; font-size: 20; } /*----------------------------------body
+ends----------------------------*/ /*----------------------------------contact
+starts----------------------------*/ .footer{ width: 100%; background: #1a1d52;
+display: block; } .footer h4{ color: white; text-align: center; } .inner-footer{
+width: 95%; margin: auto; padding: 30px 10px; display: flex; flex-wrap: wrap;
+box-sizing: border-box; justify-content: center; } .footer-items{ width: 25%;
+padding: 10px 20px; box-sizing: border-box; } h1{ padding: 10px 0px; font-size:
+25px; color: #25c998; text-transform: uppercase; font-family: 'Hachi Maru Pop',
+cursive; } .footer-items p { color: #25c998; font-size: 16px; text-align:
+justify; line-height: 25px; font-family: 'Hachi Maru Pop', cursive; }
+.footer-items p a { color: red; text-decoration: underline; } .footer-items p
+a:hover { color: #1a1d52; } h2{ margin: 10px 0; color: #25c998; font-size: 16px;
+font-weight: lighter; text-transform: uppercase; font-family: 'Hachi Maru Pop',
+cursive; } .border{ height: 2px; width: 40px; background: white; } .footer .a{
+font-family: 'Hachi Maru Pop', cursive; } ul{ list-style: none; color: #25c998;
+font-size: 15px; letter-spacing: 0.5px; } ul a{ text-decoration: none; outline:
+none; color: #25c998; transition: 0.3s; } ul a:hover{ color: white; } ul li{
+margin: 10px 0; height: 25px; } li i{ margin-right: 20px; } .social-media{
+width: 100%; color: #25c998; text-align: center; } .social-media a{ padding:
+10px; text-decoration: none; border-radius: 100%; border: 1px solid #25c998;
+transition: 0.3s; color: #25c998; } .social-media i{ height: 15px; width: 15px;
+margin: 20px 5px; color: #25c998; } .social-media a:hover{ background: #fff; }
+.footer-bottom{ padding: 10px; background: #25c998; color: #1a1d52; font-size:
+15px; text-align: center; } @media screen and (max-width: 1085px){
+.footer-items{ width: 50%; } } @media screen and (max-width: 600px){
+.footer-items{ width: 100%; } } /*----------------------------------contact
+end----------------------------*/ html { scroll-behavior: smooth; }

@@ -1,0 +1,249 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Touch Free DoorBell</title>
+    <link rel="icon" type="image/png" href="source/Icon_Image.png" />
+    <meta name="viewport" content="width=deevice-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!--logo-fonts-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+    <!--font from google fonts-->
+  </head>
+  <body>
+    <!-------------------------Nav bar start------------------------------->
+    <div class="logo" id="nav">
+      <a href=""><img src="source/Logo.png"/></a>
+    </div>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <ul>
+        <li><a href="loader_home.html">Home</a></li>
+        <li><a href="loader_project.html">Project</a></li>
+        <li><a href="loader_gallery.html">Gallery</a></li>
+        <li><a href="#foot">Contact</a></li>
+      </ul>
+    </nav>
+    <!----------------------------Nav bar end------------------------------->
+
+    <!------------------------Header Section start-------------------------->
+
+    <section id="header"></section>
+    <!--------------------------Header Section end-------------------------->
+
+    <!--------------------------Body Section start---------------------------->
+
+    <!-------------------------------title ------------------------------->
+
+    <div class="about container" id="about">
+      <div class="col-md-6 text-center">
+        <div class="col-md-6">
+          <br />
+          <br />
+          <div class="text-center">
+            <h1>Touch Free DoorBell using IR (Infrared) sensor</h1>
+          </div>
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------Abstract------------------------------->
+    <div class="resume" id="resume">
+      <div class="col-md-6">
+        <div class="col-md-6">
+          <br />
+
+          <div class="text-center"><h3>ABSTRACT</h3></div>
+
+          <p>
+            In this Covid time Door-bell is a medium of transferring virus as it
+            is used maximum times in our daily routine and hence the chances of
+            spreading virus increases. “keeping in this mind, I have designed
+            this project so that it can become a small part of saving this
+            world. The doorbell, mounted outside the front door of his house, is
+            accompanied by a message that inform visitors: “Let’s break the
+            chain. Show your hand! No need to ring the bell.
+          </p>
+
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------Exist & Propo-------------------------->
+    <div class="resume" id="pro">
+      <div class="col-md-6">
+        <h3>EXISTING SYSTEM</h3>
+        <div class="para2">
+          <p>
+            <i class="fas fa-cog fa-spin"></i> In the existing system the
+            original Doorbell is not connected just the buzzer.
+          </p>
+
+          <p>
+            <i class="fas fa-cog fa-spin"></i> In the existing system the extra
+            switch is not available because some people doesn't know how to use
+            the hand free bell.
+          </p>
+
+          <p>
+            <i class="fas fa-cog fa-spin"></i> The drawbacks of the existing
+            system is that the buzzer does not produce that much sound.
+          </p>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        <h3>PROPOSED SYSTEM</h3>
+        <div class="para3">
+          <p>
+            <i class="fas fa-cog fa-pulse"></i> The proposed system consist of
+            original Doorbell with the help of Relay.
+          </p>
+
+          <p>
+            <i class="fas fa-cog fa-pulse"></i> The proposed system consist of a
+            extra switch for the people who doesn't know how to use the hand
+            free bell.
+          </p>
+
+          <p>
+            <i class="fas fa-cog fa-pulse"></i> The Advantage of the proposed
+            system is that the sound is good enough to hear it from every inch
+            of the house.
+          </p>
+        </div>
+        <br />
+        <br />
+      </div>
+    </div>
+
+    <!-----------------------------working-------------------------------->
+    <div class="working" id="working">
+      <div class="col-md-6">
+        <h3>WORKING PRINCIPLE</h3>
+        <p>
+          The Micro-controller which we are using is the brain of the entire
+          system. Here we have IR (Infrared) sensor and Relay use to controll te
+          240V, In which it acts as a switch. The Arduino UNO is a
+          Micro-controller which get the signal from the ultra sonic sensor and
+          the UNO set the Relay to high and the Door bell rings.
+        </p>
+      </div>
+    </div>
+
+    <!--------------------------Body Section end---------------------------->
+
+    <!--------------------------contact starts------------------------------>
+
+    <div class="footer" id="foot">
+      <div class="inner-footer">
+        <div class="footer-items">
+          <h1>About Us</h1>
+          <p>
+            MyProject is a Mini Project Web-Page where it has both Electronic's
+            field and Frontend development.<br />
+            And to know about the Founder & Designer <br /><a
+              href="http://steveanand.github.io/AnandSteve"
+              >Anand Viswanathan</a
+            >
+          </p>
+        </div>
+
+        <div class="footer-items">
+          <h2>Quick links</h2>
+          <div class="border"></div>
+          <ul>
+            <a href="loader_home.html"><li>Home</li></a>
+            <a href="loader_project.html"><li>Project</li></a>
+            <a href="loader_gallery.html"><li>Gallery</li></a>
+            <a href="#footer"><li>Contact</li></a>
+          </ul>
+        </div>
+
+        <div class="footer-items">
+          <h2>Navigation</h2>
+          <div class="border"></div>
+          <ul>
+            <a href="#nav"><li>Home</li></a>
+            <a href="#resume"><li>Abstract</li></a>
+            <a href="#pro"><li>Existing & Proposed</li></a>
+            <a href="#working"><li>Working Principle</li></a>
+          </ul>
+        </div>
+
+        <div class="footer-items">
+          <h2>Contact Us</h2>
+          <div class="border"></div>
+          <ul>
+            <li>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>Chennai,
+              TamilNadu.
+            </li>
+            <li>
+              <i class="fa fa-phone" aria-hidden="true"></i>+91 9962646760
+            </li>
+            <li>
+              <i class="fa fa-envelope" aria-hidden="true"></i
+              >MyProject.io@hotmail.com
+            </li>
+          </ul>
+          <div class="social-media">
+            <a href="https://www.facebook.com/MyProject-101239011958566"
+              ><i class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+            <a href="https://twitter.com/MyProje00948520"
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.youtube.com/channel/UCQoSrj70MvS20VVCnAYCDaQ"
+              ><i class="fa fa-youtube" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <h4>
+        Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Anand
+        Viswanathan.
+      </h4>
+      <div class="footer-bottom">
+        Copyright &copy; MyProject 2021. All rights reserved.
+      </div>
+    </div>
+
+    <!--------------------------contact ends------------------------------>
+
+    <!--------------------------smooth start------------------------------>
+
+    <!--------------------------smooth ends------------------------------>
+  </body>
+</html>
