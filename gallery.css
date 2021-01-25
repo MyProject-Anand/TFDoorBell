@@ -26,89 +26,19 @@ position: inherit; text-align: center; color: #25c998; font-style: italic;
 font-weight: bold; font-size: 30; font-family: 'Sedgwick Ave Display', cursive;
 } .col-md-6 h3{ position: inherit; text-align: center; color: #25c998;
 font-family: 'Sofia', cursive; font-style: italic; font-weight: bold; font-size:
-20; } .col-md-6 text-center{ text-align: center; }
-
-.container{
-    position: relative;
-    column-count: 3;
-    padding: 20px;
-}
-.image{
-    display: inline-block;
-    margin-bottom: 10px;
-    overflow: hidden;
-}
-.img{
-    width: 100%;
-    transition: 0.25s ease-in-out;
-}
-.image:hover img{
-    transform: scale(1.1);
-}
-h2{
-    position: absolute;
-    padding: 5px;
-    margin: 5px;
-    font-size: 25px;
-    background: white;
-    color: red;
-    border-radius: 5px;
-    opacity: 0;
-    z-index: 1;
-    transition: 0.25 ease-in-out;
-}
-
-.image:hover h2{
-    opacity: 0.5;
-}
-
-.V{
-    border: 2px solid #1a1d52;
-    width: 1200px;
-    
-}
-@media screen and (max-width:1024px){
-    h2{
-        font-size: 20px;
-    }
-}
-@media screen and (max-width:768px){
-    .container{
-        column-count: 1;
-    }
-    .V{
-        column-count: 1;
-        width: 480px;
-    }
-}
-@media screen and (max-width:425px){
-    .container{
-        column-count: 1; 
-    }
-    h2{
-        font-size: 12px; 
-    }
-     .V{
-        column-count: 1;
-         width: 480px;
-    }
-}
-
-@media screen and (max-width:375px){
-    .container{
-        column-count: 1; 
-    }
-    h2{
-        font-size: 15px; 
-    }
-     .V{
-        column-count: 1;
-         width: 480px;
-    }
-}
-
-
-/*----------------------------------body
+20; } .col-md-6 text-center{ text-align: center; } .container{ position:
+relative; column-count: 3; padding: 20px; } .image{ display: inline-block;
+margin-bottom: 10px; overflow: hidden; } .img{ width: 100%; transition: 0.25s
+ease-in-out; } .image:hover img{ transform: scale(1.1); } h2{ position:
+absolute; padding: 5px; margin: 5px; font-size: 25px; background: white; color:
+red; border-radius: 5px; opacity: 0; z-index: 1; transition: 0.25 ease-in-out; }
+.image:hover h2{ opacity: 0.5; } .V{ border: 2px solid #1a1d52; width: 1200px; }
+@media screen and (max-width:1024px){ h2{ font-size: 20px; } } @media screen and
+(max-width:768px){ .container{ column-count: 1; } .V{ column-count: 1; width:
+480px; } } @media screen and (max-width:425px){ .container{ column-count: 1; }
+h2{ font-size: 12px; } .V{ column-count: 1; width: 480px; } } @media screen and
+(max-width:375px){ .container{ column-count: 1; } h2{ font-size: 15px; } .V{
+column-count: 1; width: 480px; } } /*----------------------------------body
 ends----------------------------*/ /*----------------------------------contact
 starts----------------------------*/ .footer{ width: 100%; background: #1a1d52;
 display: block; } .footer h4{ color: white; text-align: center; } .inner-footer{
